@@ -13,7 +13,7 @@ function getUserInfo() {
         success: (res) => {
             // console.log(res);
             if (res.status !== 0) return layer.msg(res.message)
-            layer.msg('获取信息成功')
+            // layer.msg('获取信息成功')
             // 调用渲染函数
             renderAvatar(res.data)
         },
