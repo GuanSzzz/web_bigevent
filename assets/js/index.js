@@ -61,3 +61,7 @@ $('#btnLogOut').click(() => {
 })
 // 调用获取个人信息的函数
 getUserInfo()
+
+function change() {
+    $('#change').addClass('layui-this').next().removeClass('layui-this')
+}
